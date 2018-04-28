@@ -1,0 +1,11 @@
+# KDE Config File
+[General]
+Name=SDL2 C - Make
+Name[de]=SDL2 C - Make
+Name[en_GB]=SDL2 C - Make
+Name[x-test]=xxSDL2 C - Makexx
+Comment=SDL2 GNU-Make MultiMedia application (crossplatform compatible) including SDL-Extensions Mixer/TTF/Image.
+Category=C/SDL2
+Icon=screenshot.png
+ValidProjectName=^[a-zA-Z_][a-zA-Z0-9_]+$
+ShowFilesAfterGeneration=%{PROJECTDIR}/src/main.c
