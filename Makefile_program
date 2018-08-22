@@ -12,7 +12,7 @@ TARGETS	 = SDL2_Demo_01
 all: $(TARGETS)
 
 SDL2_Demo_01: $(srcdir)helper.c $(srcdir)main.c
-	$(CC) $(CFLAGS) $? -o $@ $(LDFLAGS)
+	$(CC) $(CFLAGS) -o $@ $+ $(LDFLAGS)
 
 .PHONY: clean
 clean:

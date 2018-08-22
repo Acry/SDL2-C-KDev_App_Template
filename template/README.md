@@ -1,4 +1,9 @@
+KDev heavy Template
+===================
+
 This is a C-SDL Template for KDevelop
+
+[Simple DirectMedia Layer](https://www.libsdl.org/) is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.  
 
 This is a small SDL2 Demo and it does demonstrate how...  
 
@@ -14,20 +19,21 @@ This is a small SDL2 Demo and it does demonstrate how...
   * to ask for and respond to key/mouse events
   * to create tooltips  
 
-Useful links:  
-[SDL2](https://www.libsdl.org/) [SDL-Discourse](https://discourse.libsdl.org)
-
-Screenshot:  
+**Screenshot:**  
 ![Screenshot](./screenshot.png)
 
-Assets  
-Fonts  
+**Useful links:**  
+[SDL2-C-Tutorials](https://acry.github.io/) | [SDL2](https://www.libsdl.org/) | [SDL-Discourse](https://discourse.libsdl.org)  
+
+**Assets:**  
+Fonts:  
 [NimbusSanL-Regular](https://fontlibrary.org/en/font/nimbus-sans-l)  
-[Iconfont](https://fontawesome.com)
+[Iconfont](https://fontawesome.com)  
 
 Music:  
 Title: "Wish You Were Here"
 Artist: THE.MADPIX.PROJECT  
 [source](https://licensing.jamendo.com/de/track/1214935/wish-you-were-here)
 
+**Contact**
 [Get in touch on SDL-Discourse](https://discourse.libsdl.org/u/Acry/summary)

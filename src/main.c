@@ -38,8 +38,8 @@
 #define WHITE 255,255,255,255
 #define BLACK 0,0,0,255
 #define RED   255,0,0,255
-#define WW 550
-#define WH (WW/16)*12
+#define WW 540
+#define WH 340
 //END   CPP DEFINITIONS
 
 //BEGIN DATASTRUCTURES
@@ -214,7 +214,7 @@ while(running){
 	if (chunk_played_in==2)
 		SDL_RenderCopy(Renderer, octoface, NULL, &octoface_dst);
 
-	if (chunk_played_in !=0 && timer>1500)
+	if (chunk_played_in !=0 && timer>800)
 		show_tp();
 
 	SDL_RenderPresent(Renderer);
@@ -311,7 +311,7 @@ void assets_in(void)
 	
 	//BEGIN TEXT2
 	font=TTF_OpenFont("./assets/fonts/NimbusSanL-Regu.ttf", 22);
-	temp_surface=TTF_RenderText_Blended(font,"Author's SDL2 gist",black);
+	temp_surface=TTF_RenderText_Blended(font,"SDL2-C-Tutorials",black);
 	text2 = SDL_CreateTextureFromSurface(Renderer, temp_surface);
 	SDL_QueryTexture(text2, NULL, NULL, &text2_dst.w, &text2_dst.h);
 	text2_dst.x=text1_dst.x+2;
@@ -320,7 +320,7 @@ void assets_in(void)
 	
 	//BEGIN TEXT2_TP
 	font=TTF_OpenFont("./assets/fonts/NimbusSanL-Regu.ttf", 15);
-	temp_surface=TTF_RenderText_Blended(font," Author's SDL2 Gist ",black);
+	temp_surface=TTF_RenderText_Blended(font," SDL2-C-Tutorials ",black);
 	text2_tp= SDL_CreateTextureFromSurface(Renderer, temp_surface);
 	SDL_QueryTexture(text2_tp, NULL, NULL, &text2_tp_dst.w, &text2_tp_dst.h);
 	//END 	TEXT2_TP
@@ -468,7 +468,7 @@ void open_link(void)
 			system("xdg-open https://github.com/Acry/SDL2-C-KDev_App_Template");
 			break;
 		case 4:
-			system("xdg-open https://gist.github.com/Acry/baa861b8e370c6eddbb18519c487d9d8/");
+			system("xdg-open \"https://acry.github.io/\"");
 			break;
 		case 5:
 			system("xdg-open https://discourse.libsdl.org/u/Acry/");
